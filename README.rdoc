@@ -1,0 +1,9 @@
+= dm-snippets
+
+This is a collection of snippets that mostly deal with (quite possibly already resolved) bugs in dm. Some of them have nothing to do with bugs, and are just pieces of code that maybe were discussed on IRC, or I wrote them for some other reason I don't remember anymore. This is really nothing useful in itself, but it's datamapper stuff all the way, so maybe someone discovers something he/she didn't know before.
+
+When the output from running a script is pasted into the script file itself, don't trust it! It might be from a rather old version of datamapper so be sure to run it with your latest copy of dm to see wether it will do what it says that it does.
+
+I will use it from now on to dump all my unrelated dm code snippets that I write for whatever reason. Maybe it will even contain common model definitions I (and others) use regularly, who knows. The other nice thing is that I added a Gemfile, which will make it much easier for me to test stuff.
+
+Feel free to send me a pull request when you think that you have an interesting snippet of datamapper code to share. I'm planning to clean this up at some point and provide some kind of organization that will make it easier to find/browse snippets.
